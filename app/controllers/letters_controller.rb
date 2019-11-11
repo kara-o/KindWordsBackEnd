@@ -13,7 +13,8 @@ class LettersController < ApplicationController
   def create
     @letter = Letter.new(
       account_id: params[:account_id],
-      content: params[:content]
+      content: params[:content],
+      icon: params[:icon]
     )
 
     if @letter.save
@@ -43,6 +44,6 @@ class LettersController < ApplicationController
   end
 
   def letter_params
-    params.require(:letter).permit(:burned, :num_views, :num_responses)
+    params.require(:letter).permit(:burned, :num_views, :num_responses, :icon)
   end 
 end
