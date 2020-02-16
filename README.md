@@ -6,6 +6,11 @@ A simple web app that is meant to spread positivity by sharing some kind words.
 
 This is our Module Four group project for Flatiron. It is a single page web application built with a Rails API backend and a [ReactJS front end](https://github.com/kara-o/KindWordsFrontEnd).
 
+### Additional Contributors
+
+- [Justin](https://github.com/justinamaple)
+- [Brian](https://github.com/brianly27)
+
 ### How to Run
 
 Please install our [ReactJS front end](https://github.com/kara-o/KindWordsFrontEnd) as well.
