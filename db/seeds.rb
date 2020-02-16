@@ -10,7 +10,7 @@ i = 1
 while i <= 100 
   id = [a1.id, a2.id].sample
   icon = id == 1 ? a1.icon : a2.icon
-  letter = Letter.create(account_id: id, content: "This is letter ##{i}.", icon: icon)
+  letter = Letter.create(account_id: id, content: "I have a big challenge today, and would love some encouragement.", icon: icon)
   Seen.create(account_id: id, letter_id: letter.id)
   i += 1
 end
